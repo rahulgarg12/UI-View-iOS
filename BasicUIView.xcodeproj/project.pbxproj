@@ -19,6 +19,10 @@
 		35AC9F6119644DB10098645A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AC9F4919644DB10098645A /* UIKit.framework */; };
 		35AC9F6919644DB10098645A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35AC9F6719644DB10098645A /* InfoPlist.strings */; };
 		35AC9F6B19644DB10098645A /* BasicUIViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC9F6A19644DB10098645A /* BasicUIViewTests.m */; };
+		35AC9F7719644DD90098645A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC9F7519644DD90098645A /* FirstViewController.m */; };
+		35AC9F7819644DD90098645A /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AC9F7619644DD90098645A /* FirstViewController.xib */; };
+		35AC9F7C19644DEB0098645A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AC9F7A19644DEB0098645A /* SecondViewController.m */; };
+		35AC9F7D19644DEB0098645A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 35AC9F7B19644DEB0098645A /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		35AC9F6619644DB10098645A /* BasicUIViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BasicUIViewTests-Info.plist"; sourceTree = "<group>"; };
 		35AC9F6819644DB10098645A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35AC9F6A19644DB10098645A /* BasicUIViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicUIViewTests.m; sourceTree = "<group>"; };
+		35AC9F7419644DD90098645A /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		35AC9F7519644DD90098645A /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		35AC9F7619644DD90098645A /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		35AC9F7919644DEB0098645A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		35AC9F7A19644DEB0098645A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		35AC9F7B19644DEB0098645A /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +119,12 @@
 			children = (
 				35AC9F5419644DB10098645A /* AppDelegate.h */,
 				35AC9F5519644DB10098645A /* AppDelegate.m */,
+				35AC9F7419644DD90098645A /* FirstViewController.h */,
+				35AC9F7519644DD90098645A /* FirstViewController.m */,
+				35AC9F7619644DD90098645A /* FirstViewController.xib */,
+				35AC9F7919644DEB0098645A /* SecondViewController.h */,
+				35AC9F7A19644DEB0098645A /* SecondViewController.m */,
+				35AC9F7B19644DEB0098645A /* SecondViewController.xib */,
 				35AC9F5719644DB10098645A /* Images.xcassets */,
 				35AC9F4C19644DB10098645A /* Supporting Files */,
 			);
@@ -219,7 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AC9F7D19644DEB0098645A /* SecondViewController.xib in Resources */,
 				35AC9F5019644DB10098645A /* InfoPlist.strings in Resources */,
+				35AC9F7819644DD90098645A /* FirstViewController.xib in Resources */,
 				35AC9F5819644DB10098645A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +257,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35AC9F7C19644DEB0098645A /* SecondViewController.m in Sources */,
 				35AC9F5619644DB10098645A /* AppDelegate.m in Sources */,
+				35AC9F7719644DD90098645A /* FirstViewController.m in Sources */,
 				35AC9F5219644DB10098645A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
